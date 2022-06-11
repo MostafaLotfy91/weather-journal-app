@@ -1,4 +1,4 @@
-let key = ",&appid=90f1bf24683d441768855cb450fb9abd&units=metric"; //&units=metric used to convert the return value to celisius 
+const key = ",&appid=90f1bf24683d441768855cb450fb9abd&units=metric"; //&units=metric used to convert the return value to celisius 
 let baseURI = "https://api.openweathermap.org/data/2.5/weather?zip=";
 let country = document.getElementById('country');
 let zip = document.getElementById('zip');
